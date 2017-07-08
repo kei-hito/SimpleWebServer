@@ -31,10 +31,11 @@ node server.js
 
 4. ブラウザからアクセス
 
-URL: 127.0.0.1:1337
+URL: 127.0.0.1:8080
 
-ポートが気に入らない場合は、settings.jsの下記行を修正
+IP, ポートが気に入らない場合は、settings.jsの下記行を修正
 
 ```
-exports.port
+exports.port = 8080;
+exports.host = '127.0.0.1';
 ```
