@@ -1,4 +1,4 @@
-# SimpleWebServer
+﻿# SimpleWebServer
 
 ## Settings
 
@@ -39,3 +39,5 @@ IP, ポートが気に入らない場合は、settings.jsの下記行を修正
 exports.port = 8080;
 exports.host = '127.0.0.1';
 ```
+
+test
